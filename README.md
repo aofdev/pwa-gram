@@ -3,7 +3,7 @@
 
 
 ## Features
-- Save Data with Firebase Realtime Database
+- Insert Data with Firebase Realtime Database
 - Upload File Image with Cloud Storage for Firebase 
 - Push Notification
 - Background Sync
