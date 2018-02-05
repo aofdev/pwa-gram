@@ -23,7 +23,7 @@ workboxSW.router.registerRoute(/.*(?:firebasestorage\.googleapis)\.com.*$/, work
   cacheName: 'post-images'
 }));
 
-workboxSW.router.registerRoute('https://pwa-app-tests.firebaseio.com/posts.json', function(args) {
+workboxSW.router.registerRoute('https://.firebaseio.com/posts.json', function(args) {
   return fetch(args.event.request)
     .then(function (res) {
       var clonedRes = res.clone();
@@ -84,7 +84,7 @@ self.addEventListener('sync', function(event) {
             postData.append('rawLocationLng', dt.rawLocation.lng);
             postData.append('file', dt.picture, dt.id + '.png');
 
-            fetch('https://us-central1-pwa-app-tests.cloudfunctions.net/storePostData', {
+            fetch('https://.cloudfunctions.net/storePostData', {
               method: 'POST',
               body: postData
             })
