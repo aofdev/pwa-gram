@@ -1,6 +1,9 @@
 # pwa-gram
 > Progressive Web Apps Project
 
+## Config
+### Step 1
+.....
 
 ## Features
 - Insert Data with Firebase Realtime Database
