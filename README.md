@@ -3,7 +3,7 @@
 
 ## Config
 ### Step 1
-.....
+
 
 ## Features
 - Insert Data with Firebase Realtime Database
